@@ -12,6 +12,17 @@
 /.next/
 /out/
 
+# Clacky Env Files
+.1024.nix
+.1024nix
+.1024feature-file
+.1024feature*
+*.dll
+.paas-unit-*
+.breakpoints
+core.*
+coverage/
+
 # production
 /build
 
@@ -35,8 +46,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Clacky ignore rules
-cython_debug/
+# System and Version Control Files
+.git/
+.DS_Store
+Thumbs.db
+.nfs*
 .git/
 .1024.nix
 .1024feature*
@@ -86,6 +100,20 @@ Thumbs.db
 *.pid
 *.seed
 *.pid.lock
+# Language and Framework Specific Files
+node_modules/
+.pnpm-store/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
 # Logs, Temporary, and Backup Files
 *.log
 *.tmp
