@@ -1,3 +1,10 @@
+import CustomersList from '@/app/ui/customers/customers-list';
+
 export default function Page() {
-    return <p>Customers Page</p>;
-  }
+    return (
+        <div>
+            <h1>Customers Page</h1>
+            <CustomersList />
+        </div>
+    );
+}
