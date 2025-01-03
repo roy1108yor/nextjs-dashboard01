@@ -182,3 +182,7 @@ vendor/
 *.env.test.local
 *.env.production.local
 coverage/
+
+.1024*
+!.1024
+.breakpoints
