@@ -12,15 +12,6 @@
 /.next/
 /out/
 
-# Clacky Env Files
-.1024.nix
-.1024feature-file
-.1024feature*
-*.dll
-.paas-unit-*
-.breakpoints
-core.*
-coverage/
 
 # production
 /build
@@ -51,8 +42,6 @@ next-env.d.ts
 Thumbs.db
 .nfs*
 .git/
-.1024.nix
-.1024feature*
 .nfs*
 *.dll
 .paas-unit-*
@@ -183,6 +172,3 @@ vendor/
 *.env.production.local
 coverage/
 
-.1024*
-!.1024
-.breakpoints
