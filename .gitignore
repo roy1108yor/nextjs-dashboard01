@@ -171,7 +171,3 @@ vendor/
 *.env.test.local
 *.env.production.local
 coverage/
-
-# Clacky-specific entries
-.1024*
-!.1024
